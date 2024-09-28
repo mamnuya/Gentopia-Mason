@@ -8,6 +8,24 @@ INFO:root:[green]User:
 INFO:root:imageExpert is thinking...
 INFO:root:Done
 INFO:root:[blue]imageExpert: 
+INFO:root:{"name":"show_image", "arguments":{"url":"https://www.tutorialspoint.com/images/logo.png"}}
+
+INFO:root:Calling function: show_image ...
+INFO:root:Done
+INFO:root:--------------------
+INFO:root:Showed image
+INFO:root:--------------------
+INFO:root:imageExpert is thinking...
+INFO:root:Done
+INFO:root:[blue]imageExpert: 
+INFO:root:Here is the image you requested:
+
+![Image](https://www.tutorialspoint.com/images/logo.png)
+INFO:root:Done
+INFO:root:[green]User: 
+INFO:root:imageExpert is thinking...
+INFO:root:Done
+INFO:root:[blue]imageExpert: 
 INFO:root:{"name":"image_black_and_white", "arguments":{"url":"https://www.tutorialspoint.com/images/logo.png"}}
 
 INFO:root:Calling function: image_black_and_white ...
@@ -18,10 +36,6 @@ INFO:root:--------------------
 INFO:root:imageExpert is thinking...
 INFO:root:Done
 INFO:root:[blue]imageExpert: 
-INFO:root:Here is the black and white version of the image:
-
-![Black and White Image](https://www.tutorialspoint.com/images/logo.png)
+INFO:root:I have shown the image in black and white. If you need anything else, feel free to ask!
 INFO:root:Done
 INFO:root:[green]User: 
-INFO:root:
-[red]Bye!
