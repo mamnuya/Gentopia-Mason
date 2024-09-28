@@ -10,6 +10,7 @@ target_tasks:
   - find scholars that have the queried research interests
   - web search
   - web browsing
+  - read pdfs
 prompt_template: !prompt VanillaPrompt
 llm: 
   model_name: gpt-4o-mini

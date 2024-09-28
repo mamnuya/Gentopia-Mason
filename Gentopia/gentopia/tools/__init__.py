@@ -14,6 +14,8 @@ from .code_interpreter import PythonCodeInterpreter
 from .file_operation import WriteFile, ReadFile
 from .duckduckgo import DuckDuckGo
 from .pdf_reader import PDFReader
+from .show_image import ShowImage
+from .image_black_and_white import ImageBlackAndWhite
 
 
 def load_tools(name: str) -> BaseTool:
@@ -44,7 +46,9 @@ def load_tools(name: str) -> BaseTool:
         "search_single_paper": SearchSinglePaper,
         "search_related_paper": SearchRelatedPaper,
         "search_cite_paper": SearchCitePaper,
-        "pdf_reader": PDFReader
+        "pdf_reader": PDFReader,
+        "show_image": ShowImage,
+        "image_black_and_white": ImageBlackAndWhite
     }
     if name not in name2tool:
         raise NotImplementedError

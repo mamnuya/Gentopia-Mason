@@ -11,3 +11,4 @@ from .vanilla-ziyu import *
 from .scholar-ziyu import *
 from .agentrinki import *
 from .agentrinkischolar import *
+from .imageExpert import *
