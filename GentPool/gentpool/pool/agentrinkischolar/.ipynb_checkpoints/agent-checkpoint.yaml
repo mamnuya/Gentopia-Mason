@@ -8,6 +8,8 @@ target_tasks:
   - find papers that cite the target paper
   - find papers that relevant to a topic
   - find scholars that have the queried research interests
+  - web search
+  - web browsing
 prompt_template: !prompt VanillaPrompt
 llm: 
   model_name: gpt-4o-mini
@@ -25,3 +27,6 @@ plugins:
   - name: search_related_paper
   - name: search_cite_paper
   - name: write_file
+  - name: google_search
+  - name: web_page
+  - name: pdf_reader
