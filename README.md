@@ -1,5 +1,9 @@
 # Gentopia-Mason
 
+View my contributions and information on my agent to display images (color and in black/white): 
+* 📖 Contributions Report:
+[Agent_report.pdf]()
+
 **IMPORTANT NOTICE: This code repository was adapted from [Gentopia.AI](https://github.com/Gentopia-AI) to support Mason Activities.** 
 
 Authors: Ziyu Yao (ziyuyao@gmu.edu) and Murong Yue (myue@gmu.edu)
